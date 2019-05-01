@@ -80,7 +80,7 @@ This application provides your basic CRUD features through REST methods. All res
   
 * To update an employee, use PUT on  ```/employees ``` update the entity in body
 
-* To delete an employee, use DELETE on  ```/employees/{employeeId}
+* To delete an employee, use DELETE on  ```/employees/{employeeId} ```
 
 
 
