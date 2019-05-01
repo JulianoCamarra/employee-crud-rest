@@ -19,6 +19,7 @@
  <img src="">
 Employee-Crud-Rest is, as the name implies, a CRUD application that allows users to manage employees entirely through REST operations (get, post,put and delete)
 
+## Built With
 
 * [Java](https://www.java.com/en/download/)
 * [MySql](https://www.mysql.com)
@@ -73,14 +74,30 @@ This application provides your basic CRUD features through REST methods. All res
 
 #####
 * To get all employees, use GET on  ```/employees ```
+ <img src="https://i.ibb.co/6PNNLLw/employee-crm-rest-GET.png">
+ 
+ 
 
 * To get an employee, use GET on  ```/employee/{employeeId} ```
+<img src="https://i.ibb.co/sHRkbpF/employee-crm-rest-GET-ID.png">
+
+
 
 * To add a new employee to the database, use POST on  ```/employees ```, click on Body in Postman and make sure data type is set to  ```JSON(application/json) ```
+<img src="https://i.ibb.co/Df5DD6p/employee-crm-rest-POST.png">
+
+
+
   
 * To update an employee, use PUT on  ```/employees ``` update the entity in body
+<img src="https://i.ibb.co/9WT7hfP/employee-crm-rest-PUT.png">
+
+
+
 
 * To delete an employee, use DELETE on  ```/employees/{employeeId} ```
+<img src="https://i.ibb.co/r4hyrKn/employee-crm-rest-DELETE.png">
+
 
 
 
