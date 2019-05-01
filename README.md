@@ -16,8 +16,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
- <img src="https://i.ibb.co/d474zZr/customercrm-screenshot.png">
-Employee-Crud-Rest is, as the name implies, a CRUD application that allows users to manage employees entirely through REST operations https://dashboard.heroku.com/apps/mycustomercrm(get, post,put and delete)
+ <img src="">
+Employee-Crud-Rest is, as the name implies, a CRUD application that allows users to manage employees entirely through REST operations (get, post,put and delete)
 
 
 * [Java](https://www.java.com/en/download/)
@@ -76,7 +76,7 @@ This application provides your basic CRUD features through REST methods. All res
 
 * To get an employee, use GET on  ```/employee/{employeeId} ```
 
-* To add a new employee to the database, use POST on  ```/employees ```, click on Body in Postman and make sure data type is set to  ```JSON(application/json)
+* To add a new employee to the database, use POST on  ```/employees ```, click on Body in Postman and make sure data type is set to  ```JSON(application/json) ```
   
 * To update an employee, use PUT on  ```/employees ``` update the entity in body
 
